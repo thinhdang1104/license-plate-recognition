@@ -10,12 +10,28 @@ Hệ thống được triển khai dưới dạng **demo chạy local**, phục 
 
 ---
 
-## 🧠 Công nghệ sử dụng
+## Công nghệ sử dụng
 - Python
 - YOLOv8 (Ultralytics)
 - PyTorch
 - OpenCV
 - Streamlit
 
----
+## Hướng dẫn chạy project
+Bước 1: Clone source code
 
+git clone <github_repository_url>
+cd BIENSOXE
+
+Bước 2: Cài đặt thư viện
+
+pip install -r requirements.txt
+
+Bước 3: Chạy ứng dụng
+
+streamlit run main.py
+
+Sau khi chạy, mở trình duyệt và truy cập:
+http://localhost:8501
+
+---
